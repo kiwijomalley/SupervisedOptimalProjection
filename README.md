@@ -1,4 +1,4 @@
-# Supervised_Optimal_Projection
+# SupervisedOptimalProjection
 Supplementary Materials with R code used in a paper on supervised optimal projection of referral paths in a bipartite space to unipartite one-mode network that is currently under review.
 
 The computing scripts relied upon by this paper are twofold:
