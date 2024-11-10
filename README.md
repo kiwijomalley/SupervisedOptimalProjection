@@ -1,5 +1,5 @@
 # SupervisedOptimalProjection
-Supplementary Materials with R code used in a paper on supervised optimal projection of referral paths in a bipartite space to unipartite one-mode network that is currently under review.
+Supplementary Materials with R code used in a paper on Methodology for Supervised Optimization of the Construction of Physician Shared-Patient Networks that is currently under review.
 
 The computing scripts relied upon by this paper are twofold:
 1) The scripts used to construct the unipartite shared-patient physician networks under the settings of the Continuity, Revisit and Multplicity factors as described in the Background section of the paper are written in Python. These are available at the repository: https://github.com/kiwijomalley/OptimalBipartiteProjection. For additional description about these factors, readers are referred to O'Malley et al (2022) at: https://doi.org/10.6339/22-JDS1064
@@ -32,4 +32,4 @@ The 5 R scripts and their functions follow:
    - Use type=3 or 4 for the p2 model
    - The difference between type=1 vs type=2 and type=3 vs type=4 is immaterial once inside this function. It reflects whether a single model is being estimated or multiple are (i.e., this procedure is called multiple times by an outside function)
 
-
+The Appendix accompanying the paper is contained in the file Supervised_Optimal_Projection_Revision_AppendixUnblinded.pdf. Section A of the Appendix includes additional dyadic diagnostic measures and conditional dyadic analyses. Section B contains additional empirical results relevant to the application: the demonstration of the minimal risk of overfitting from not forming separate training and test datasets when estimating and comparing the performance of different network construction methods, additional plots of the networks, associations of the Multiplicity factor levels with edge-level diagnostic accuracy, and the fitted Hierarchical P2 model used to evaluate the overall association of the within-hospital shared-patient physician networks with the survey nomination physician networks.
